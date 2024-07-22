@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="hook.cpp" />
+    <ClCompile Include="pattern.cpp" />
+    <ClCompile Include="draw_transition.cpp" />
+    <ClCompile Include="fortnite.cpp" />
+    <ClCompile Include="SDK\coreuobject_functions.cpp" />
+    <ClCompile Include="SDK\fortnite_functions.cpp" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="SDK\engine_functions.cpp" />
+    <ClCompile Include="stdlib\functionality.cpp" />
+    <ClCompile Include="Debug\process_event.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{0281d090-b57e-4521-bcda-c73cd57fcaf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hook.h" />
+    <ClInclude Include="pattern.h" />
+    <ClInclude Include="draw_transition.h" />
+    <ClInclude Include="fortnite.h" />
+    <ClInclude Include="SDK\sdk.h" />
+    <ClInclude Include="mutex.h" />
+    <ClInclude Include="SDK\coreuobject_classes.h" />
+    <ClInclude Include="SDK\fortnite_classes.h" />
+    <ClInclude Include="SDK\fortnite_structs.h" />
+    <ClInclude Include="SDK\coreuobject_structs.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="SDK\engine_classes.h" />
+    <ClInclude Include="SDK\engine_structs.h" />
+    <ClInclude Include="stdlib\functionality.h" />
+    <ClInclude Include="stdlib\imports.h" />
+    <ClInclude Include="stdlib\map.h" />
+    <ClInclude Include="stdlib\vector.h" />
+    <ClInclude Include="Debug\process_event.h" />
+  </ItemGroup>
+</Project>
